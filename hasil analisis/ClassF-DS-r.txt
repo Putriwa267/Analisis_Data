@@ -1,0 +1,174 @@
+
+MQ2	MQ3	MQ4	MQ5	MQ6	MQ7	MQ8	MQ9	MQ135	SPAD	Nitrogen	Flavonoid
+0	0.316228	0.173205	0.489898	0.200000	0.1	0.141421	0.141421	0.223607	0.173205	38.6	Deficient	Deficient
+1	0.300000	0.200000	0.509902	0.173205	0.1	0.141421	0.100000	0.223607	0.173205	37.9	Deficient	Deficient
+2	0.282843	0.200000	0.447214	0.200000	0.1	0.141421	0.100000	0.223607	0.141421	41.4	Deficient	Deficient
+3	0.300000	0.200000	0.479583	0.200000	0.1	0.141421	0.100000	0.223607	0.173205	41.8	Deficient	Deficient
+4	0.316228	0.200000	0.479583	0.200000	0.1	0.141421	0.100000	0.223607	0.173205	41.7	Deficient	Deficient
+
+
+The optimal number of neighbors is 5.
+
+Fitting 10 folds for each of 8 candidates, totalling 80 fits
+[CV] END .........................gamma=scale, kernel=linear; total time=   0.1s
+[CV] END .........................gamma=scale, kernel=linear; total time=   0.0s
+[CV] END .........................gamma=scale, kernel=linear; total time=   0.0s
+[CV] END .........................gamma=scale, kernel=linear; total time=   0.0s
+[CV] END .........................gamma=scale, kernel=linear; total time=   0.0s
+[CV] END .........................gamma=scale, kernel=linear; total time=   0.0s
+[CV] END .........................gamma=scale, kernel=linear; total time=   0.0s
+[CV] END .........................gamma=scale, kernel=linear; total time=   0.0s
+[CV] END .........................gamma=scale, kernel=linear; total time=   0.0s
+[CV] END .........................gamma=scale, kernel=linear; total time=   0.0s
+[CV] END ...........................gamma=scale, kernel=poly; total time=   0.0s
+[CV] END ...........................gamma=scale, kernel=poly; total time=   0.0s
+[CV] END ...........................gamma=scale, kernel=poly; total time=   0.0s
+[CV] END ...........................gamma=scale, kernel=poly; total time=   0.0s
+[CV] END ...........................gamma=scale, kernel=poly; total time=   0.0s
+[CV] END ...........................gamma=scale, kernel=poly; total time=   0.0s
+[CV] END ...........................gamma=scale, kernel=poly; total time=   0.0s
+[CV] END ...........................gamma=scale, kernel=poly; total time=   0.0s
+[CV] END ...........................gamma=scale, kernel=poly; total time=   0.0s
+[CV] END ...........................gamma=scale, kernel=poly; total time=   0.0s
+[CV] END ............................gamma=scale, kernel=rbf; total time=   0.0s
+[CV] END ............................gamma=scale, kernel=rbf; total time=   0.0s
+[CV] END ............................gamma=scale, kernel=rbf; total time=   0.0s
+[CV] END ............................gamma=scale, kernel=rbf; total time=   0.0s
+[CV] END ............................gamma=scale, kernel=rbf; total time=   0.0s
+...
+[CV] END .........................gamma=auto, kernel=sigmoid; total time=   0.0s
+[CV] END .........................gamma=auto, kernel=sigmoid; total time=   0.0s
+Score:  nan
+Parameters:  {'gamma': 'scale', 'kernel': 'linear'}
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+Fitting 10 folds for each of 3 candidates, totalling 30 fits
+[CV] END .....................................criterion=gini; total time=   0.1s
+[CV] END .....................................criterion=gini; total time=   0.0s
+[CV] END .....................................criterion=gini; total time=   0.0s
+[CV] END .....................................criterion=gini; total time=   0.0s
+[CV] END .....................................criterion=gini; total time=   0.0s
+[CV] END .....................................criterion=gini; total time=   0.0s
+[CV] END .....................................criterion=gini; total time=   0.0s
+[CV] END .....................................criterion=gini; total time=   0.0s
+[CV] END .....................................criterion=gini; total time=   0.0s
+[CV] END .....................................criterion=gini; total time=   0.0s
+[CV] END ..................................criterion=entropy; total time=   0.0s
+[CV] END ..................................criterion=entropy; total time=   0.0s
+[CV] END ..................................criterion=entropy; total time=   0.0s
+[CV] END ..................................criterion=entropy; total time=   0.0s
+[CV] END ..................................criterion=entropy; total time=   0.0s
+[CV] END ..................................criterion=entropy; total time=   0.0s
+[CV] END ..................................criterion=entropy; total time=   0.0s
+[CV] END ..................................criterion=entropy; total time=   0.0s
+[CV] END ..................................criterion=entropy; total time=   0.0s
+[CV] END ..................................criterion=entropy; total time=   0.0s
+[CV] END .................................criterion=log_loss; total time=   0.0s
+[CV] END .................................criterion=log_loss; total time=   0.0s
+[CV] END .................................criterion=log_loss; total time=   0.0s
+[CV] END .................................criterion=log_loss; total time=   0.0s
+[CV] END .................................criterion=log_loss; total time=   0.0s
+[CV] END .................................criterion=log_loss; total time=   0.0s
+[CV] END .................................criterion=log_loss; total time=   0.0s
+[CV] END .................................criterion=log_loss; total time=   0.0s
+[CV] END .................................criterion=log_loss; total time=   0.0s
+[CV] END .................................criterion=log_loss; total time=   0.0s
+Score:  nan
+Parameters:  {'criterion': 'gini'}
+
+Fitting 10 folds for each of 12 candidates, totalling 120 fits
+[CV] END ..................activation=identity, solver=lbfgs; total time=   0.6s
+[CV] END ..................activation=identity, solver=lbfgs; total time=   0.1s
+[CV] END ..................activation=identity, solver=lbfgs; total time=   0.1s
+[CV] END ..................activation=identity, solver=lbfgs; total time=   0.2s
+[CV] END ..................activation=identity, solver=lbfgs; total time=   0.0s
+[CV] END ..................activation=identity, solver=lbfgs; total time=   0.0s
+[CV] END ..................activation=identity, solver=lbfgs; total time=   0.0s
+[CV] END ..................activation=identity, solver=lbfgs; total time=   0.0s
+[CV] END ..................activation=identity, solver=lbfgs; total time=   0.0s
+[CV] END ..................activation=identity, solver=lbfgs; total time=   0.0s
+[CV] END ....................activation=identity, solver=sgd; total time=   1.5s
+[CV] END ....................activation=identity, solver=sgd; total time=   0.4s
+[CV] END ....................activation=identity, solver=sgd; total time=   1.1s
+[CV] END ....................activation=identity, solver=sgd; total time=   1.5s
+[CV] END ....................activation=identity, solver=sgd; total time=   1.3s
+[CV] END ....................activation=identity, solver=sgd; total time=   1.4s
+[CV] END ....................activation=identity, solver=sgd; total time=   1.3s
+[CV] END ....................activation=identity, solver=sgd; total time=   1.3s
+[CV] END ....................activation=identity, solver=sgd; total time=   1.3s
+[CV] END ....................activation=identity, solver=sgd; total time=   1.0s
+[CV] END ...................activation=identity, solver=adam; total time=   1.2s
+[CV] END ...................activation=identity, solver=adam; total time=   1.2s
+[CV] END ...................activation=identity, solver=adam; total time=   1.1s
+[CV] END ...................activation=identity, solver=adam; total time=   1.1s
+[CV] END ...................activation=identity, solver=adam; total time=   1.3s
+...
+[CV] END .......................activation=relu, solver=adam; total time=   1.2s
+[CV] END .......................activation=relu, solver=adam; total time=   0.9s
+Score:  nan
+Parameters:  {'activation': 'identity', 'solver': 'lbfgs'}
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+----------------------------MLP-----------------------------------------
+              precision    recall  f1-score   support
+
+   Deficient       0.77      0.80      0.78        25
+        High       0.60      0.69      0.64        26
+      Normal       0.57      0.46      0.51        37
+   Subnormal       0.68      0.72      0.70        36
+
+    accuracy                           0.65       124
+   macro avg       0.66      0.67      0.66       124
+weighted avg       0.65      0.65      0.65       124
+
+Recall:0.67
+Precision:0.66
+F1-Score:0.66
+----------------------------DT-----------------------------------------
+              precision    recall  f1-score   support
+
+   Deficient       0.92      0.92      0.92        25
+        High       0.85      0.88      0.87        26
+      Normal       0.89      0.89      0.89        37
+   Subnormal       0.89      0.86      0.87        36
+
+    accuracy                           0.89       124
+   macro avg       0.89      0.89      0.89       124
+weighted avg       0.89      0.89      0.89       124
+
+Recall:0.89
+Precision:0.89
+F1-Score:0.89
+----------------------------SVM-----------------------------------------
+              precision    recall  f1-score   support
+
+   Deficient       0.77      0.96      0.86        25
+        High       0.57      0.92      0.71        26
+      Normal       0.86      0.49      0.62        37
+   Subnormal       0.87      0.72      0.79        36
+
+    accuracy                           0.74       124
+   macro avg       0.77      0.77      0.74       124
+weighted avg       0.78      0.74      0.73       124
+
+Recall:0.77
+Precision:0.77
+F1-Score:0.74
+----------------------------KNN-----------------------------------------
+              precision    recall  f1-score   support
+
+   Deficient       0.92      0.92      0.92        25
+        High       0.88      0.88      0.88        26
+      Normal       0.89      0.84      0.86        37
+   Subnormal       0.82      0.86      0.84        36
+
+    accuracy                           0.87       124
+   macro avg       0.88      0.88      0.88       124
+weighted avg       0.87      0.87      0.87       124
+
+Recall:0.88
+Precision:0.88
+F1-Score:0.88
+----------------------------Akurasi-----------------------------------------
+Accuracy with K-NN: 87.10%
+Accuracy with SVM: 74.19%
+Accuracy with DTC: 88.71%
+Accuracy with MLP: 65.32%

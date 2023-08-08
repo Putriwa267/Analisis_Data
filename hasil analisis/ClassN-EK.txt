@@ -1,0 +1,57 @@
+----------------------------MLP-----------------------------------------
+              precision    recall  f1-score   support
+
+   Deficient       0.82      0.83      0.82        59
+      Normal       0.83      0.81      0.82        59
+
+    accuracy                           0.82       118
+   macro avg       0.82      0.82      0.82       118
+weighted avg       0.82      0.82      0.82       118
+
+Recall:0.82
+Precision:0.82
+F1-Score:0.82
+----------------------------DT-----------------------------------------
+              precision    recall  f1-score   support
+
+   Deficient       0.93      0.90      0.91        59
+      Normal       0.90      0.93      0.92        59
+
+    accuracy                           0.92       118
+   macro avg       0.92      0.92      0.92       118
+weighted avg       0.92      0.92      0.92       118
+
+Recall:0.92
+Precision:0.92
+F1-Score:0.92
+----------------------------SVM-----------------------------------------
+              precision    recall  f1-score   support
+
+   Deficient       0.86      0.86      0.86        59
+      Normal       0.86      0.86      0.86        59
+
+    accuracy                           0.86       118
+   macro avg       0.86      0.86      0.86       118
+weighted avg       0.86      0.86      0.86       118
+
+Recall:0.86
+Precision:0.86
+F1-Score:0.86
+----------------------------KNN-----------------------------------------
+              precision    recall  f1-score   support
+
+   Deficient       0.98      0.95      0.97        59
+      Normal       0.95      0.98      0.97        59
+
+    accuracy                           0.97       118
+   macro avg       0.97      0.97      0.97       118
+weighted avg       0.97      0.97      0.97       118
+
+Recall:0.97
+Precision:0.97
+F1-Score:0.97
+----------------------------Akurasi-----------------------------------------
+Accuracy with K-NN: 96.61%
+Accuracy with SVM: 86.44%
+Accuracy with DTC: 91.53%
+Accuracy with MLP: 82.20%
